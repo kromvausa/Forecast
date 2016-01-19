@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/base_margin">
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/current_temperature_text_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/temperature_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/base_margin"
+        android:textSize="@dimen/forecast_text_size_normal"/>
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/base_margin"
+        android:textSize="@dimen/forecast_text_size_normal"/>
+
+</LinearLayout>

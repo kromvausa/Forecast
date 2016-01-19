@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_name">Forecast</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="temperature_grades">%1$s °C</string>
+    <string name="temperature_interval">%1$s °C / %2$s °C</string>
+    <string name="empty_items">There is not items at his time</string>
+    <string name="network_error">Please make sure you are connected to the network.</string>
+    <string name="play_services_not_available">Google Play Services is not available in your system.</string>
+    <string name="enable_location_services">You need to enable location services, Do you want to do it?</string>
+    <string name="enable_loc_services">Please give permissions to enable the app to use your current location.</string>
+
+</resources>

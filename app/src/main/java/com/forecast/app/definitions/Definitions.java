@@ -5,7 +5,7 @@ package com.forecast.app.definitions;
  */
 public class Definitions {
     // Forecast API
-    public static final String URL_BASE = "https://api.forecast.io";
+    public static final String URL_BASE = "https://api.darksky.net";
 
     // Definitions
     public static final String TODAY_TIME = "today_time";
